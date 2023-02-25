@@ -10,5 +10,8 @@ import Foundation
 struct DetailMovieViewModel {
     let title: String
     let overview: String
+    let voteCount: Int
+    let voteAverage: Double
+    let status: String
     let backDropPath: URL?
 }
